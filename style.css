@@ -1,0 +1,60 @@
+body {
+    background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.godubrovnik.com%2Fwp-content%2Fuploads%2Fpizza.jpg&f=1&nofb=1&ipt=b7e77a3747ab2f74a36cb6bdc6351aec12f1dde43fe0f37ea9fe61304fa9d095&ipo=images.google.com/imgres?imgurl=https%3A%2F%2Fimages.healthshots.com%2Fhealthshots%2Fen%2Fuploads%2F2023%2F02%2F09155200%2Fpizza-1.jpg&tbnid=RAXnnz-CW8nG0M&vet=12ahUKEwj43NiDotv-AhUQpicCHU5eBj4QMygiegUIARDEAg..i&imgrefurl=https%3A%2F%2Fwww.healthshots.com%2Fhow-to%2Fworld-pizza-day-a-healthy-millet-pizza-recipe-you-wont-regret-eating%2F&docid=_ocZhv5rZD98VM&w=1600&h=900&q=pizza%20images&ved=2ahUKEwj43NiDotv-AhUQpicCHU5eBj4QMygiegUIARDEAg");
+    background-color: rgb(63, 110, 240);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.pizza {
+    border: 1px solid chocolate;
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 0.5em;
+    border-radius: 2em;
+    width: 20em;
+    display: inline-block;
+    /* min-height: 30em; */
+    
+}
+
+.pizza img{
+    width: 20em;
+}
+.medium_pizza {
+    background-color: chocolate;
+flex: 1
+}
+
+.large_pizza {
+    background-color: blue;
+    flex:2
+}
+
+.small_pizza {
+    background-color: rgb(97, 5, 100);
+    flex:1
+}
+
+.contact_us {
+    background-color: crimson;
+    width: 90%;
+    height: 75px
+}
+.special{
+    background-color: black;
+    color: aliceblue;
+    margin: 0em;
+}
+@media (min-width: 760px) {
+
+    body {
+        background-color: rgb(124, 99, 156);
+        
+    }
+
+@media (min-width: 960px) {
+
+    body {
+        background-color: rgb(239, 245, 245);
+        
+    }
+    
+}
